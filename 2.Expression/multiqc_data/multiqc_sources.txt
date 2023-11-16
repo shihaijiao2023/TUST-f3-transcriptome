@@ -1,0 +1,13 @@
+Module	Section	Sample Name	Source
+featureCounts	all_sections	824_6h_2	/home/lzc/project/117_ZK005/results/3.Expression/protein_count.txt.summary
+featureCounts	all_sections	824_6h_3	/home/lzc/project/117_ZK005/results/3.Expression/protein_count.txt.summary
+featureCounts	all_sections	F_3_24h_1	/home/lzc/project/117_ZK005/results/3.Expression/protein_count.txt.summary
+featureCounts	all_sections	824_6h_1	/home/lzc/project/117_ZK005/results/3.Expression/protein_count.txt.summary
+featureCounts	all_sections	824_24h_1	/home/lzc/project/117_ZK005/results/3.Expression/protein_count.txt.summary
+featureCounts	all_sections	824_24h_3	/home/lzc/project/117_ZK005/results/3.Expression/protein_count.txt.summary
+featureCounts	all_sections	824_24h_2	/home/lzc/project/117_ZK005/results/3.Expression/protein_count.txt.summary
+featureCounts	all_sections	F_3_6h_1	/home/lzc/project/117_ZK005/results/3.Expression/protein_count.txt.summary
+featureCounts	all_sections	F_3_24h_3	/home/lzc/project/117_ZK005/results/3.Expression/protein_count.txt.summary
+featureCounts	all_sections	F_3_6h_2	/home/lzc/project/117_ZK005/results/3.Expression/protein_count.txt.summary
+featureCounts	all_sections	F_3_6h_3	/home/lzc/project/117_ZK005/results/3.Expression/protein_count.txt.summary
+featureCounts	all_sections	F_3_24h_2	/home/lzc/project/117_ZK005/results/3.Expression/protein_count.txt.summary

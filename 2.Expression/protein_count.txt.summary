@@ -1,0 +1,13 @@
+Status	/home/lzc/project/117_ZK005/mapping/bam/824_24h_1.sorted.bam	/home/lzc/project/117_ZK005/mapping/bam/824_24h_2.sorted.bam	/home/lzc/project/117_ZK005/mapping/bam/824_24h_3.sorted.bam	/home/lzc/project/117_ZK005/mapping/bam/824_6h_1.sorted.bam	/home/lzc/project/117_ZK005/mapping/bam/824_6h_2.sorted.bam	/home/lzc/project/117_ZK005/mapping/bam/824_6h_3.sorted.bam	/home/lzc/project/117_ZK005/mapping/bam/F_3_24h_1.sorted.bam	/home/lzc/project/117_ZK005/mapping/bam/F_3_24h_2.sorted.bam	/home/lzc/project/117_ZK005/mapping/bam/F_3_24h_3.sorted.bam	/home/lzc/project/117_ZK005/mapping/bam/F_3_6h_1.sorted.bam	/home/lzc/project/117_ZK005/mapping/bam/F_3_6h_2.sorted.bam	/home/lzc/project/117_ZK005/mapping/bam/F_3_6h_3.sorted.bam
+Assigned	3827106	3980798	2958537	5135407	5834059	13622764	4967089	4447006	5468233	12141993	6980166	5745032
+Unassigned_Unmapped	201241	153370	169155	1552864	513583	855080	551647	858429	1167444	1054228	345905	462958
+Unassigned_MappingQuality	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Chimera	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_FragmentLength	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Duplicate	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_MultiMapping	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Secondary	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Nonjunction	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_NoFeatures	3934472	4055820	3040353	5609415	6371298	15033699	5249883	4686902	5749191	13181468	7428197	6400176
+Unassigned_Overlapping_Length	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Ambiguity	78075	80678	58977	363348	426022	1238837	207493	202903	222040	844009	366518	554604

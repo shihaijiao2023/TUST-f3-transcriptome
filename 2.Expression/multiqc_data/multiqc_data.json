@@ -1,0 +1,627 @@
+{
+    "report_general_stats_headers": [
+        {
+            "percent_assigned": {
+                "ceiling": null, 
+                "scale": "RdYlGn", 
+                "placement": 1000.0, 
+                "suffix": "%", 
+                "min": 0, 
+                "dmax": 100.0, 
+                "max": 100, 
+                "format": "{:,.1f}", 
+                "title": "% Assigned", 
+                "namespace": "featureCounts", 
+                "hidden": null, 
+                "minRange": null, 
+                "modify": null, 
+                "floor": null, 
+                "dmin": 0.0, 
+                "rid": "mqc-generalstats-featurecounts-percent_assigned", 
+                "shared_key": null, 
+                "colour": "55,126,184", 
+                "description": "% Assigned reads"
+            }, 
+            "Assigned": {
+                "ceiling": null, 
+                "scale": "PuBu", 
+                "placement": 1000.0, 
+                "description": "Assigned reads (millions)", 
+                "min": 0, 
+                "dmax": 13.622764, 
+                "namespace": "featureCounts", 
+                "format": "{:,.1f}", 
+                "title": "M Assigned", 
+                "modify": 1e-06, 
+                "hidden": null, 
+                "minRange": null, 
+                "dmin": 0.0, 
+                "shared_key": "read_count", 
+                "max": null, 
+                "rid": "mqc-generalstats-featurecounts-Assigned", 
+                "floor": null, 
+                "colour": "55,126,184"
+            }
+        }
+    ], 
+    "config_version": "1.8.dev0", 
+    "report_general_stats_data": [
+        {
+            "824_6h_2": {
+                "Unassigned_Ambiguity": 426022, 
+                "Unassigned_MappingQuality": 0, 
+                "percent_assigned": 44.38247139854797, 
+                "Unassigned_Nonjunction": 0, 
+                "Unassigned_Duplicate": 0, 
+                "Unassigned_Chimera": 0, 
+                "Unassigned_Unmapped": 513583, 
+                "Assigned": 5834059, 
+                "Unassigned_MultiMapping": 0, 
+                "Unassigned_Overlapping_Length": 0, 
+                "Unassigned_Secondary": 0, 
+                "Unassigned_FragmentLength": 0, 
+                "Unassigned_NoFeatures": 6371298, 
+                "Total": 13144962
+            }, 
+            "824_6h_3": {
+                "Unassigned_Ambiguity": 1238837, 
+                "Unassigned_MappingQuality": 0, 
+                "percent_assigned": 44.30112408366986, 
+                "Unassigned_Nonjunction": 0, 
+                "Unassigned_Duplicate": 0, 
+                "Unassigned_Chimera": 0, 
+                "Unassigned_Unmapped": 855080, 
+                "Assigned": 13622764, 
+                "Unassigned_MultiMapping": 0, 
+                "Unassigned_Overlapping_Length": 0, 
+                "Unassigned_Secondary": 0, 
+                "Unassigned_FragmentLength": 0, 
+                "Unassigned_NoFeatures": 15033699, 
+                "Total": 30750380
+            }, 
+            "F_3_24h_1": {
+                "Unassigned_Ambiguity": 207493, 
+                "Unassigned_MappingQuality": 0, 
+                "percent_assigned": 45.25362897171603, 
+                "Unassigned_Nonjunction": 0, 
+                "Unassigned_Duplicate": 0, 
+                "Unassigned_Chimera": 0, 
+                "Unassigned_Unmapped": 551647, 
+                "Assigned": 4967089, 
+                "Unassigned_MultiMapping": 0, 
+                "Unassigned_Overlapping_Length": 0, 
+                "Unassigned_Secondary": 0, 
+                "Unassigned_FragmentLength": 0, 
+                "Unassigned_NoFeatures": 5249883, 
+                "Total": 10976112
+            }, 
+            "824_6h_1": {
+                "Unassigned_Ambiguity": 363348, 
+                "Unassigned_MappingQuality": 0, 
+                "percent_assigned": 40.56072355543789, 
+                "Unassigned_Nonjunction": 0, 
+                "Unassigned_Duplicate": 0, 
+                "Unassigned_Chimera": 0, 
+                "Unassigned_Unmapped": 1552864, 
+                "Assigned": 5135407, 
+                "Unassigned_MultiMapping": 0, 
+                "Unassigned_Overlapping_Length": 0, 
+                "Unassigned_Secondary": 0, 
+                "Unassigned_FragmentLength": 0, 
+                "Unassigned_NoFeatures": 5609415, 
+                "Total": 12661034
+            }, 
+            "824_24h_1": {
+                "Unassigned_Ambiguity": 78075, 
+                "Unassigned_MappingQuality": 0, 
+                "percent_assigned": 47.59552855689927, 
+                "Unassigned_Nonjunction": 0, 
+                "Unassigned_Duplicate": 0, 
+                "Unassigned_Chimera": 0, 
+                "Unassigned_Unmapped": 201241, 
+                "Assigned": 3827106, 
+                "Unassigned_MultiMapping": 0, 
+                "Unassigned_Overlapping_Length": 0, 
+                "Unassigned_Secondary": 0, 
+                "Unassigned_FragmentLength": 0, 
+                "Unassigned_NoFeatures": 3934472, 
+                "Total": 8040894
+            }, 
+            "824_24h_3": {
+                "Unassigned_Ambiguity": 58977, 
+                "Unassigned_MappingQuality": 0, 
+                "percent_assigned": 47.511266220032624, 
+                "Unassigned_Nonjunction": 0, 
+                "Unassigned_Duplicate": 0, 
+                "Unassigned_Chimera": 0, 
+                "Unassigned_Unmapped": 169155, 
+                "Assigned": 2958537, 
+                "Unassigned_MultiMapping": 0, 
+                "Unassigned_Overlapping_Length": 0, 
+                "Unassigned_Secondary": 0, 
+                "Unassigned_FragmentLength": 0, 
+                "Unassigned_NoFeatures": 3040353, 
+                "Total": 6227022
+            }, 
+            "824_24h_2": {
+                "Unassigned_Ambiguity": 80678, 
+                "Unassigned_MappingQuality": 0, 
+                "percent_assigned": 48.131528948212875, 
+                "Unassigned_Nonjunction": 0, 
+                "Unassigned_Duplicate": 0, 
+                "Unassigned_Chimera": 0, 
+                "Unassigned_Unmapped": 153370, 
+                "Assigned": 3980798, 
+                "Unassigned_MultiMapping": 0, 
+                "Unassigned_Overlapping_Length": 0, 
+                "Unassigned_Secondary": 0, 
+                "Unassigned_FragmentLength": 0, 
+                "Unassigned_NoFeatures": 4055820, 
+                "Total": 8270666
+            }, 
+            "F_3_24h_3": {
+                "Unassigned_Ambiguity": 222040, 
+                "Unassigned_MappingQuality": 0, 
+                "percent_assigned": 43.37489414533683, 
+                "Unassigned_Nonjunction": 0, 
+                "Unassigned_Duplicate": 0, 
+                "Unassigned_Chimera": 0, 
+                "Unassigned_Unmapped": 1167444, 
+                "Assigned": 5468233, 
+                "Unassigned_MultiMapping": 0, 
+                "Unassigned_Overlapping_Length": 0, 
+                "Unassigned_Secondary": 0, 
+                "Unassigned_FragmentLength": 0, 
+                "Unassigned_NoFeatures": 5749191, 
+                "Total": 12606908
+            }, 
+            "F_3_6h_1": {
+                "Unassigned_Ambiguity": 844009, 
+                "Unassigned_MappingQuality": 0, 
+                "percent_assigned": 44.604098539334316, 
+                "Unassigned_Nonjunction": 0, 
+                "Unassigned_Duplicate": 0, 
+                "Unassigned_Chimera": 0, 
+                "Unassigned_Unmapped": 1054228, 
+                "Assigned": 12141993, 
+                "Unassigned_MultiMapping": 0, 
+                "Unassigned_Overlapping_Length": 0, 
+                "Unassigned_Secondary": 0, 
+                "Unassigned_FragmentLength": 0, 
+                "Unassigned_NoFeatures": 13181468, 
+                "Total": 27221698
+            }, 
+            "F_3_6h_2": {
+                "Unassigned_Ambiguity": 366518, 
+                "Unassigned_MappingQuality": 0, 
+                "percent_assigned": 46.162719318956036, 
+                "Unassigned_Nonjunction": 0, 
+                "Unassigned_Duplicate": 0, 
+                "Unassigned_Chimera": 0, 
+                "Unassigned_Unmapped": 345905, 
+                "Assigned": 6980166, 
+                "Unassigned_MultiMapping": 0, 
+                "Unassigned_Overlapping_Length": 0, 
+                "Unassigned_Secondary": 0, 
+                "Unassigned_FragmentLength": 0, 
+                "Unassigned_NoFeatures": 7428197, 
+                "Total": 15120786
+            }, 
+            "F_3_6h_3": {
+                "Unassigned_Ambiguity": 554604, 
+                "Unassigned_MappingQuality": 0, 
+                "percent_assigned": 43.64607145760353, 
+                "Unassigned_Nonjunction": 0, 
+                "Unassigned_Duplicate": 0, 
+                "Unassigned_Chimera": 0, 
+                "Unassigned_Unmapped": 462958, 
+                "Assigned": 5745032, 
+                "Unassigned_MultiMapping": 0, 
+                "Unassigned_Overlapping_Length": 0, 
+                "Unassigned_Secondary": 0, 
+                "Unassigned_FragmentLength": 0, 
+                "Unassigned_NoFeatures": 6400176, 
+                "Total": 13162770
+            }, 
+            "F_3_24h_2": {
+                "Unassigned_Ambiguity": 202903, 
+                "Unassigned_MappingQuality": 0, 
+                "percent_assigned": 43.618453317430486, 
+                "Unassigned_Nonjunction": 0, 
+                "Unassigned_Duplicate": 0, 
+                "Unassigned_Chimera": 0, 
+                "Unassigned_Unmapped": 858429, 
+                "Assigned": 4447006, 
+                "Unassigned_MultiMapping": 0, 
+                "Unassigned_Overlapping_Length": 0, 
+                "Unassigned_Secondary": 0, 
+                "Unassigned_FragmentLength": 0, 
+                "Unassigned_NoFeatures": 4686902, 
+                "Total": 10195240
+            }
+        }
+    ], 
+    "config_creation_date": "2020-03-03, 03:15", 
+    "config_title": null, 
+    "config_report_comment": null, 
+    "config_short_version": "1.8.dev0", 
+    "config_intro_text": null, 
+    "report_saved_raw_data": {
+        "multiqc_featureCounts": {
+            "824_6h_2": {
+                "Unassigned_Ambiguity": 426022, 
+                "Unassigned_MappingQuality": 0, 
+                "percent_assigned": 44.38247139854797, 
+                "Unassigned_Nonjunction": 0, 
+                "Unassigned_Duplicate": 0, 
+                "Unassigned_Chimera": 0, 
+                "Unassigned_Unmapped": 513583, 
+                "Assigned": 5834059, 
+                "Unassigned_MultiMapping": 0, 
+                "Unassigned_Overlapping_Length": 0, 
+                "Unassigned_Secondary": 0, 
+                "Unassigned_FragmentLength": 0, 
+                "Unassigned_NoFeatures": 6371298, 
+                "Total": 13144962
+            }, 
+            "824_6h_3": {
+                "Unassigned_Ambiguity": 1238837, 
+                "Unassigned_MappingQuality": 0, 
+                "percent_assigned": 44.30112408366986, 
+                "Unassigned_Nonjunction": 0, 
+                "Unassigned_Duplicate": 0, 
+                "Unassigned_Chimera": 0, 
+                "Unassigned_Unmapped": 855080, 
+                "Assigned": 13622764, 
+                "Unassigned_MultiMapping": 0, 
+                "Unassigned_Overlapping_Length": 0, 
+                "Unassigned_Secondary": 0, 
+                "Unassigned_FragmentLength": 0, 
+                "Unassigned_NoFeatures": 15033699, 
+                "Total": 30750380
+            }, 
+            "F_3_24h_1": {
+                "Unassigned_Ambiguity": 207493, 
+                "Unassigned_MappingQuality": 0, 
+                "percent_assigned": 45.25362897171603, 
+                "Unassigned_Nonjunction": 0, 
+                "Unassigned_Duplicate": 0, 
+                "Unassigned_Chimera": 0, 
+                "Unassigned_Unmapped": 551647, 
+                "Assigned": 4967089, 
+                "Unassigned_MultiMapping": 0, 
+                "Unassigned_Overlapping_Length": 0, 
+                "Unassigned_Secondary": 0, 
+                "Unassigned_FragmentLength": 0, 
+                "Unassigned_NoFeatures": 5249883, 
+                "Total": 10976112
+            }, 
+            "824_6h_1": {
+                "Unassigned_Ambiguity": 363348, 
+                "Unassigned_MappingQuality": 0, 
+                "percent_assigned": 40.56072355543789, 
+                "Unassigned_Nonjunction": 0, 
+                "Unassigned_Duplicate": 0, 
+                "Unassigned_Chimera": 0, 
+                "Unassigned_Unmapped": 1552864, 
+                "Assigned": 5135407, 
+                "Unassigned_MultiMapping": 0, 
+                "Unassigned_Overlapping_Length": 0, 
+                "Unassigned_Secondary": 0, 
+                "Unassigned_FragmentLength": 0, 
+                "Unassigned_NoFeatures": 5609415, 
+                "Total": 12661034
+            }, 
+            "824_24h_1": {
+                "Unassigned_Ambiguity": 78075, 
+                "Unassigned_MappingQuality": 0, 
+                "percent_assigned": 47.59552855689927, 
+                "Unassigned_Nonjunction": 0, 
+                "Unassigned_Duplicate": 0, 
+                "Unassigned_Chimera": 0, 
+                "Unassigned_Unmapped": 201241, 
+                "Assigned": 3827106, 
+                "Unassigned_MultiMapping": 0, 
+                "Unassigned_Overlapping_Length": 0, 
+                "Unassigned_Secondary": 0, 
+                "Unassigned_FragmentLength": 0, 
+                "Unassigned_NoFeatures": 3934472, 
+                "Total": 8040894
+            }, 
+            "824_24h_3": {
+                "Unassigned_Ambiguity": 58977, 
+                "Unassigned_MappingQuality": 0, 
+                "percent_assigned": 47.511266220032624, 
+                "Unassigned_Nonjunction": 0, 
+                "Unassigned_Duplicate": 0, 
+                "Unassigned_Chimera": 0, 
+                "Unassigned_Unmapped": 169155, 
+                "Assigned": 2958537, 
+                "Unassigned_MultiMapping": 0, 
+                "Unassigned_Overlapping_Length": 0, 
+                "Unassigned_Secondary": 0, 
+                "Unassigned_FragmentLength": 0, 
+                "Unassigned_NoFeatures": 3040353, 
+                "Total": 6227022
+            }, 
+            "824_24h_2": {
+                "Unassigned_Ambiguity": 80678, 
+                "Unassigned_MappingQuality": 0, 
+                "percent_assigned": 48.131528948212875, 
+                "Unassigned_Nonjunction": 0, 
+                "Unassigned_Duplicate": 0, 
+                "Unassigned_Chimera": 0, 
+                "Unassigned_Unmapped": 153370, 
+                "Assigned": 3980798, 
+                "Unassigned_MultiMapping": 0, 
+                "Unassigned_Overlapping_Length": 0, 
+                "Unassigned_Secondary": 0, 
+                "Unassigned_FragmentLength": 0, 
+                "Unassigned_NoFeatures": 4055820, 
+                "Total": 8270666
+            }, 
+            "F_3_24h_3": {
+                "Unassigned_Ambiguity": 222040, 
+                "Unassigned_MappingQuality": 0, 
+                "percent_assigned": 43.37489414533683, 
+                "Unassigned_Nonjunction": 0, 
+                "Unassigned_Duplicate": 0, 
+                "Unassigned_Chimera": 0, 
+                "Unassigned_Unmapped": 1167444, 
+                "Assigned": 5468233, 
+                "Unassigned_MultiMapping": 0, 
+                "Unassigned_Overlapping_Length": 0, 
+                "Unassigned_Secondary": 0, 
+                "Unassigned_FragmentLength": 0, 
+                "Unassigned_NoFeatures": 5749191, 
+                "Total": 12606908
+            }, 
+            "F_3_6h_1": {
+                "Unassigned_Ambiguity": 844009, 
+                "Unassigned_MappingQuality": 0, 
+                "percent_assigned": 44.604098539334316, 
+                "Unassigned_Nonjunction": 0, 
+                "Unassigned_Duplicate": 0, 
+                "Unassigned_Chimera": 0, 
+                "Unassigned_Unmapped": 1054228, 
+                "Assigned": 12141993, 
+                "Unassigned_MultiMapping": 0, 
+                "Unassigned_Overlapping_Length": 0, 
+                "Unassigned_Secondary": 0, 
+                "Unassigned_FragmentLength": 0, 
+                "Unassigned_NoFeatures": 13181468, 
+                "Total": 27221698
+            }, 
+            "F_3_6h_2": {
+                "Unassigned_Ambiguity": 366518, 
+                "Unassigned_MappingQuality": 0, 
+                "percent_assigned": 46.162719318956036, 
+                "Unassigned_Nonjunction": 0, 
+                "Unassigned_Duplicate": 0, 
+                "Unassigned_Chimera": 0, 
+                "Unassigned_Unmapped": 345905, 
+                "Assigned": 6980166, 
+                "Unassigned_MultiMapping": 0, 
+                "Unassigned_Overlapping_Length": 0, 
+                "Unassigned_Secondary": 0, 
+                "Unassigned_FragmentLength": 0, 
+                "Unassigned_NoFeatures": 7428197, 
+                "Total": 15120786
+            }, 
+            "F_3_6h_3": {
+                "Unassigned_Ambiguity": 554604, 
+                "Unassigned_MappingQuality": 0, 
+                "percent_assigned": 43.64607145760353, 
+                "Unassigned_Nonjunction": 0, 
+                "Unassigned_Duplicate": 0, 
+                "Unassigned_Chimera": 0, 
+                "Unassigned_Unmapped": 462958, 
+                "Assigned": 5745032, 
+                "Unassigned_MultiMapping": 0, 
+                "Unassigned_Overlapping_Length": 0, 
+                "Unassigned_Secondary": 0, 
+                "Unassigned_FragmentLength": 0, 
+                "Unassigned_NoFeatures": 6400176, 
+                "Total": 13162770
+            }, 
+            "F_3_24h_2": {
+                "Unassigned_Ambiguity": 202903, 
+                "Unassigned_MappingQuality": 0, 
+                "percent_assigned": 43.618453317430486, 
+                "Unassigned_Nonjunction": 0, 
+                "Unassigned_Duplicate": 0, 
+                "Unassigned_Chimera": 0, 
+                "Unassigned_Unmapped": 858429, 
+                "Assigned": 4447006, 
+                "Unassigned_MultiMapping": 0, 
+                "Unassigned_Overlapping_Length": 0, 
+                "Unassigned_Secondary": 0, 
+                "Unassigned_FragmentLength": 0, 
+                "Unassigned_NoFeatures": 4686902, 
+                "Total": 10195240
+            }
+        }, 
+        "multiqc_general_stats": {
+            "824_6h_2": {
+                "featureCounts_mqc-generalstats-featurecounts-Assigned": 5834059, 
+                "featureCounts_mqc-generalstats-featurecounts-percent_assigned": 44.38247139854797
+            }, 
+            "824_6h_3": {
+                "featureCounts_mqc-generalstats-featurecounts-Assigned": 13622764, 
+                "featureCounts_mqc-generalstats-featurecounts-percent_assigned": 44.30112408366986
+            }, 
+            "F_3_24h_1": {
+                "featureCounts_mqc-generalstats-featurecounts-Assigned": 4967089, 
+                "featureCounts_mqc-generalstats-featurecounts-percent_assigned": 45.25362897171603
+            }, 
+            "824_6h_1": {
+                "featureCounts_mqc-generalstats-featurecounts-Assigned": 5135407, 
+                "featureCounts_mqc-generalstats-featurecounts-percent_assigned": 40.56072355543789
+            }, 
+            "824_24h_1": {
+                "featureCounts_mqc-generalstats-featurecounts-Assigned": 3827106, 
+                "featureCounts_mqc-generalstats-featurecounts-percent_assigned": 47.59552855689927
+            }, 
+            "824_24h_3": {
+                "featureCounts_mqc-generalstats-featurecounts-Assigned": 2958537, 
+                "featureCounts_mqc-generalstats-featurecounts-percent_assigned": 47.511266220032624
+            }, 
+            "824_24h_2": {
+                "featureCounts_mqc-generalstats-featurecounts-Assigned": 3980798, 
+                "featureCounts_mqc-generalstats-featurecounts-percent_assigned": 48.131528948212875
+            }, 
+            "F_3_6h_1": {
+                "featureCounts_mqc-generalstats-featurecounts-Assigned": 12141993, 
+                "featureCounts_mqc-generalstats-featurecounts-percent_assigned": 44.604098539334316
+            }, 
+            "F_3_24h_3": {
+                "featureCounts_mqc-generalstats-featurecounts-Assigned": 5468233, 
+                "featureCounts_mqc-generalstats-featurecounts-percent_assigned": 43.37489414533683
+            }, 
+            "F_3_6h_2": {
+                "featureCounts_mqc-generalstats-featurecounts-Assigned": 6980166, 
+                "featureCounts_mqc-generalstats-featurecounts-percent_assigned": 46.162719318956036
+            }, 
+            "F_3_6h_3": {
+                "featureCounts_mqc-generalstats-featurecounts-Assigned": 5745032, 
+                "featureCounts_mqc-generalstats-featurecounts-percent_assigned": 43.64607145760353
+            }, 
+            "F_3_24h_2": {
+                "featureCounts_mqc-generalstats-featurecounts-Assigned": 4447006, 
+                "featureCounts_mqc-generalstats-featurecounts-percent_assigned": 43.618453317430486
+            }
+        }
+    }, 
+    "report_data_sources": {
+        "featureCounts": {
+            "all_sections": {
+                "824_6h_2": "/home/lzc/project/117_ZK005/results/3.Expression/protein_count.txt.summary", 
+                "824_6h_3": "/home/lzc/project/117_ZK005/results/3.Expression/protein_count.txt.summary", 
+                "F_3_24h_1": "/home/lzc/project/117_ZK005/results/3.Expression/protein_count.txt.summary", 
+                "824_6h_1": "/home/lzc/project/117_ZK005/results/3.Expression/protein_count.txt.summary", 
+                "824_24h_1": "/home/lzc/project/117_ZK005/results/3.Expression/protein_count.txt.summary", 
+                "824_24h_3": "/home/lzc/project/117_ZK005/results/3.Expression/protein_count.txt.summary", 
+                "824_24h_2": "/home/lzc/project/117_ZK005/results/3.Expression/protein_count.txt.summary", 
+                "F_3_6h_1": "/home/lzc/project/117_ZK005/results/3.Expression/protein_count.txt.summary", 
+                "F_3_24h_3": "/home/lzc/project/117_ZK005/results/3.Expression/protein_count.txt.summary", 
+                "F_3_6h_2": "/home/lzc/project/117_ZK005/results/3.Expression/protein_count.txt.summary", 
+                "F_3_6h_3": "/home/lzc/project/117_ZK005/results/3.Expression/protein_count.txt.summary", 
+                "F_3_24h_2": "/home/lzc/project/117_ZK005/results/3.Expression/protein_count.txt.summary"
+            }
+        }
+    }, 
+    "report_multiqc_command": "/home/lzc/.local/bin/multiqc -f genes_count.txt.summary protein_count.txt.summary --export /home/lzc/project/117_ZK005/results/3.Expression", 
+    "config_analysis_dir": [
+        "genes_count.txt.summary", 
+        "protein_count.txt.summary", 
+        "/home/lzc/project/117_ZK005/results/3.Expression"
+    ], 
+    "config_report_header_info": null, 
+    "config_analysis_dir_abs": [
+        "/home/lzc/project/117_ZK005/results/3.Expression/genes_count.txt.summary", 
+        "/home/lzc/project/117_ZK005/results/3.Expression/protein_count.txt.summary", 
+        "/home/lzc/project/117_ZK005/results/3.Expression"
+    ], 
+    "config_subtitle": null, 
+    "report_plot_data": {
+        "featureCounts_assignment_plot-1": {
+            "plot_type": "bar_graph", 
+            "datasets": [
+                [
+                    {
+                        "data": [
+                            3827106.0, 
+                            3980798.0, 
+                            2958537.0, 
+                            5135407.0, 
+                            5834059.0, 
+                            13622764.0, 
+                            4967089.0, 
+                            4447006.0, 
+                            5468233.0, 
+                            12141993.0, 
+                            6980166.0, 
+                            5745032.0
+                        ], 
+                        "name": "Assigned"
+                    }, 
+                    {
+                        "data": [
+                            201241.0, 
+                            153370.0, 
+                            169155.0, 
+                            1552864.0, 
+                            513583.0, 
+                            855080.0, 
+                            551647.0, 
+                            858429.0, 
+                            1167444.0, 
+                            1054228.0, 
+                            345905.0, 
+                            462958.0
+                        ], 
+                        "name": "Unassigned_Unmapped"
+                    }, 
+                    {
+                        "data": [
+                            3934472.0, 
+                            4055820.0, 
+                            3040353.0, 
+                            5609415.0, 
+                            6371298.0, 
+                            15033699.0, 
+                            5249883.0, 
+                            4686902.0, 
+                            5749191.0, 
+                            13181468.0, 
+                            7428197.0, 
+                            6400176.0
+                        ], 
+                        "name": "Unassigned_NoFeatures"
+                    }, 
+                    {
+                        "data": [
+                            78075.0, 
+                            80678.0, 
+                            58977.0, 
+                            363348.0, 
+                            426022.0, 
+                            1238837.0, 
+                            207493.0, 
+                            202903.0, 
+                            222040.0, 
+                            844009.0, 
+                            366518.0, 
+                            554604.0
+                        ], 
+                        "name": "Unassigned_Ambiguity"
+                    }
+                ]
+            ], 
+            "config": {
+                "ylab": "# Reads", 
+                "cpswitch_counts_label": "Number of Reads", 
+                "id": "featureCounts_assignment_plot-1", 
+                "title": "featureCounts: Assignments"
+            }, 
+            "samples": [
+                [
+                    "824_24h_1", 
+                    "824_24h_2", 
+                    "824_24h_3", 
+                    "824_6h_1", 
+                    "824_6h_2", 
+                    "824_6h_3", 
+                    "F_3_24h_1", 
+                    "F_3_24h_2", 
+                    "F_3_24h_3", 
+                    "F_3_6h_1", 
+                    "F_3_6h_2", 
+                    "F_3_6h_3"
+                ]
+            ]
+        }
+    }, 
+    "config_script_path": "/home/lzc/.local/lib/python2.7/site-packages/multiqc/utils", 
+    "config_git_hash": null
+}
